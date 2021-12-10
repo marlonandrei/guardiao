@@ -1,0 +1,37 @@
+*** COMANDOS DO TERMINAL UTILIZADO NESTE PROJETO ***
+
+- Certifica-se que sua versão do NPM é a mais atual:
+npm install -g npm
+
+npm install -g yo generator-botbuilder
+
+yo botbuilder
+
+- Gerencia as conversaçoes e requisições - turns
+npm install --save restify
+
+- Packages referente a funções do BOT
+npm install --save botbuilder
+npm install --save botbuilder-dialogs
+npm install --save botbuilder-ai
+npm install --save adaptivecards
+npm install --save node-persist
+npm install --save @azure/ai-text-analytics
+
+- Packages para o Custom Vision - Cognitivo da Microsoft
+npm install --save @azure/cognitiveservices-customvision-prediction
+
+- Permite trabalhar com arquivos .ENV (semelhante .INI)
+npm install --save dotenv
+
+- Package para trabalhar com banco de dados MySQL
+npm install --save mysql
+npm install --save mysql2
+
+- Package trabalhar com numeros extensos
+npm install --save numero-por-extenso
+
+- Inicia serviço do Bot (estar na pasta do bot)
+npm start
+
+Observação: O parametro -g instala globalmente os packages e --save atualiza as dependências do pacote.

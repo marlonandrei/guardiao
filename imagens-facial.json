@@ -1,0 +1,49 @@
+{
+    "name": "guardiao",
+    "version": "1.0.0",
+    "description": "Bot de monitoramento de turbinas por comandos de voz e resposta de dúvidas técnicas.",
+    "author": "Generated using Microsoft Bot Builder Yeoman generator v4.10.1",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "bitbucket",
+        "url": "https://bitbucket.org"
+    },
+    "dependencies": {
+        "@azure/ai-text-analytics": "^5.0.1",
+        "@azure/cognitiveservices-customvision-prediction": "^5.1.2",
+        "@azure/search-documents": "^11.0.3",
+        "adaptivecards": "^2.4.0",
+        "axios": "^0.21.0",
+        "azure-cognitiveservices-customvision-prediction": "^3.0.0",
+        "azure-cognitiveservices-customvision-training": "^3.0.0",
+        "botbuilder": "^4.10.3",
+        "botbuilder-ai": "^4.10.3",
+        "botbuilder-dialogs": "^4.10.1",
+        "dotenv": "^8.2.0",
+        "extenso": "^2.0.1",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.2.5",
+        "node-persist": "^3.1.0",
+        "numero-por-extenso": "^1.0.8",
+        "request": "^2.88.2",
+        "restify": "^8.5.1",
+        "uuid": "^8.3.1",
+        "uuidv4": "^6.2.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.0.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "nodemon": "~2.0.4"
+    }
+}

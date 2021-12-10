@@ -1,0 +1,81 @@
+{
+  "acceptMappedClaims": null,
+  "addIns": [],
+  "allowGuestsSignIn": null,
+  "allowPassthroughUsers": null,
+  "appId": "9011835a-0e17-4d71-97b2-444dae5c0d69",
+  "appLogoUrl": null,
+  "appPermissions": null,
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "availableToOtherTenants": true,
+  "deletionTimestamp": null,
+  "displayName": "guardiao-bot",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": null,
+  "identifierUris": [],
+  "informationalUrls": {
+    "marketing": null,
+    "privacy": null,
+    "support": null,
+    "termsOfService": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logo@odata.mediaContentType": "application/json;odata=minimalmetadata; charset=utf-8",
+  "logo@odata.mediaEditLink": "directoryObjects/8b77dac5-3441-4f9a-a637-f2628241c961/Microsoft.DirectoryServices.Application/logo",
+  "logoUrl": null,
+  "logoutUrl": null,
+  "mainLogo@odata.mediaEditLink": "directoryObjects/8b77dac5-3441-4f9a-a637-f2628241c961/Microsoft.DirectoryServices.Application/mainLogo",
+  "oauth2AllowIdTokenImplicitFlow": true,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access guardiao-bot on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access guardiao-bot",
+      "id": "5a489b9d-7867-4bad-9faa-a55dca986991",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access guardiao-bot on your behalf.",
+      "userConsentDisplayName": "Access guardiao-bot",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "8b77dac5-3441-4f9a-a637-f2628241c961",
+  "objectType": "Application",
+  "odata.metadata": "https://graph.windows.net/4148a6de-0dd1-4d04-a4c5-78e374e4f6d6/$metadata#directoryObjects/@Element",
+  "odata.type": "Microsoft.DirectoryServices.Application",
+  "optionalClaims": null,
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "additionalProperties": null,
+      "customKeyIdentifier": null,
+      "endDate": "2021-10-18T17:39:53.805196+00:00",
+      "keyId": "38ea7db5-e06c-4502-902f-03ac1e65d9b4",
+      "startDate": "2020-10-19T17:39:53.805196+00:00",
+      "value": null
+    }
+  ],
+  "preAuthorizedApplications": null,
+  "publicClient": null,
+  "publisherDomain": "sesisenaisp.onmicrosoft.com",
+  "recordConsentConditions": null,
+  "replyUrls": [],
+  "requiredResourceAccess": [],
+  "samlMetadataUrl": null,
+  "signInAudience": "AzureADMultipleOrgs",
+  "tokenEncryptionKeyId": null,
+  "wwwHomepage": null
+}
+
+
+Senha: SenaiGuardiao13347

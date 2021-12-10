@@ -1,0 +1,60 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "Container",
+            "style": "default",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "A qualquer momento, me peça 'Ajuda' e ajudarei como se comunicar comigo. Veja exemplos de frases que você pode me enviar:",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "spacing": "None"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "FactSet",
+                            "facts": [
+                                {
+                                    "title": "Estado de sensor:",
+                                    "value": "Qual o rpm da turbina?"
+                                },
+                                {
+                                    "title": "Estado de sensor:",
+                                    "value": "Qual a pressão do vapor vivo?"
+                                },
+                                {
+                                    "title": "Configurar tag:",
+                                    "value": "Setar valor mínimo da tag PIT-81-004 para 5"
+                                },
+                                {
+                                    "title": "Configurar tag:",
+                                    "value": "Colocar 5 no valor máximo da tag SI_81_001"
+                                },
+                                {
+                                    "title": "Suporte dúvidas:",
+                                    "value": "Por que o mancal esta muito quente?"
+                                },
+                                {
+                                    "title": "Suporte dúvidas:",
+                                    "value": "Como evitar o disparo por sobrevelocidade? "
+                                }
+                            ],
+                            "spacing": "Small",
+                            "separator": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None",
+            "separator": true,
+            "height": "stretch",
+            "bleed": true
+        }
+    ]
+}

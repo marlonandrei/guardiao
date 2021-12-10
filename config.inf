@@ -1,0 +1,52 @@
+
+### MySQL Dados de Login ###
+
+- SSH MySQL (Putty)
+Ip: 191.233.254.11
+Usuário: Senai
+Senha: SenaiGuardiao13347
+
+
+- MySQL User
+Usuário: guardiao     
+Senha: SenaiGuardiao13347
+
+Host: 191.232.232.35 
+Database: guardiao
+Port: 3306
+User: guardiao
+Password: SenaiGuardiao13347
+
+- Conectar no MySQL
+mysql -u root -pPZkYHrfEADZ6
+mysql -u guardiao -pSenaiGuardiao13347
+
+- Adicionar usuário MySQL
+
+- Dar privilégios de conexão no MySQL para usuário
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+flush privileges;
+
+### MySQL Conexão ###
+
+Configurações que devem ser realizadas para conseguir conexão no MySQL:
+allowPublicKeyRetrieval=true
+useSSL=false
+verifyServerCertificate=false
+
+
+### Bitnami comandos importantes ###
+
+sudo /opt/bitnami/ctlscript.sh status
+Call it without any service name arguments to start all services:
+
+sudo /opt/bitnami/ctlscript.sh start
+Or use it to restart a single service, such as Apache only, by passing the service name as argument:
+
+sudo /opt/bitnami/ctlscript.sh restart 
+Use this script to stop all services:
+
+sudo /opt/bitnami/ctlscript.sh stop
+Restart the services by running the script without any arguments:
+
+sudo /opt/bitnami/ctlscript.sh restart
